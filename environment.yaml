@@ -6,6 +6,7 @@ dependencies:
   - pip:
     #- e . # install package from current directory
     - pre-commit
+    - jupyterlab
     - nltk
     - matplotlib
     - seaborn
