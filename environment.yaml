@@ -1,9 +1,13 @@
-name: conda_env_name
+name: npr
 
 dependencies:
   - python=3.9 # change python version
   - pip
   - pip:
-    - e . # install package from current directory
+    #- e . # install package from current directory
     - pre-commit
-    # add your requirements
+    - nltk
+    - matplotlib
+    - seaborn
+    - pandas
+    - numpy
