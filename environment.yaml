@@ -1,0 +1,9 @@
+name: conda_env_name
+
+dependencies:
+  - python=3.9 # change python version
+  - pip
+  - pip:
+    - e . # install package from current directory
+    - pre-commit
+    # add your requirements
